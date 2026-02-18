@@ -5,11 +5,11 @@ import './index.css'
 
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
-import MainLayout from './layouts/mainLayout';
 import Home from './components/Home';
 import AddCoffee from './components/AddCoffee';
 import UpdateCoffee from './components/UpdateCoffee';
 import CoffeeDetails from './components/CoffeeDetails';
+import MainLayout from './layouts/MainLayout';
 
 const router = createBrowserRouter([
   {
